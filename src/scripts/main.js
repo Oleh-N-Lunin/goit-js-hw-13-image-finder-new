@@ -35,8 +35,7 @@ export const moreImages = () => {
       markup(images);
       refs.loader.scrollIntoView({
         behavior: "smooth",
-        block: "start",
-        inline: "nearest"
+        block: "end",
       });
     })
     .catch(error => console.log(error));
