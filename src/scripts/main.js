@@ -41,25 +41,6 @@ export const moreImages = () => {
     .catch(error => console.log(error));
 };
 
-// window.scrollIntoView({
-//   behavior: "smooth",
-//   block: "start",
-//   inline: "nearest"
-// });
-
-// export const moreImages = () => {
-//   page += 1;
-//   apiService(inputValue, page, KEY)
-//     .then(images => {
-//       markup(images);
-//       scrollTo({
-//         top: document.documentElement.offsetHeight - 1600,
-//         behavior: 'smooth',
-//       });
-//     })
-//     .catch(error => console.log(error));
-// };
-
 export default function onOpenModal(event) {
 
   if (event.target.nodeName !== 'IMG') {
